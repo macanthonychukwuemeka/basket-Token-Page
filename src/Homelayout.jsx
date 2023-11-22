@@ -1,4 +1,4 @@
-import { Navbar } from "./Components";
+import Navbar from "./Navbar";
 import BasketPage from "./BasketPage";
 
 const Homelayout = () => {
