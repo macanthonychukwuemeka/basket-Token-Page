@@ -1,30 +1,29 @@
-import CartItems from "./components/CartItems";
+import CartItems from "../components/CartItems";
 
 const BasketPage = () => {
   return (
-    <>
-      <div className=" overflow-auto sm:pb-[65px] md:ml-[60px] lg:ml-[60px]">
-        <div className="px-2.5 lg:px-10 mx-auto pb-20 sm:pb-0 mt-10 w-full">
-          <div className="max-w-[1166px] mx-auto">
-            <div className="mb-[50px]">
-              <div className="flex justify-between items-center px-7.5 mb-4">
-                <span className="font-abcBold text-white text-xl leading-none">
-                  Featured Baskets
-                </span>
-                <div>
-                  <button
-                    className="inline-flex items-center justify-center font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-destructive/90 px-4 py-2 rounded-[11px] h-10 bg-blue-500 w-[151px] text-gray-101 font-proximaSemiBold text-xs leading-none"
-                    disabled
-                  >
-                    CREATE BASKET
-                  </button>
-                </div>
+    <div className=" overflow-auto sm:pb-[65px] md:ml-[60px] lg:ml-[60px]">
+      <div className="px-2.5 lg:px-10 mx-auto pb-20 sm:pb-0 mt-10 w-full">
+        <div className="max-w-[1166px] mx-auto">
+          <div className="mb-[50px]">
+            <div className="flex justify-between items-center px-7.5 mb-4">
+              <span className="font-abcBold text-white text-xl leading-none">
+                Featured Baskets
+              </span>
+              <div>
+                <button
+                  className="inline-flex items-center justify-center font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-destructive/90 px-4 py-2 rounded-[11px] h-10 bg-blue-500 w-[151px] text-gray-101 font-proximaSemiBold text-xs leading-none"
+                  disabled
+                >
+                  CREATE BASKET
+                </button>
               </div>
-              <div className="gap-[10px] flex flex-wrap">
-                {/* *** FIRST CARD *** */}
-                <CartItems />
-                {/* ***SECOND CARD*** */}
-                <div
+            </div>
+            <div className="gap-[10px] flex flex-wrap">
+              {/* *** FIRST CARD *** */}
+              <CartItems />
+              {/* ***SECOND CARD*** */}
+              {/* <div
                   className=" bg-notifyBg rounded-[25px] w-[382px] h-[260px] py-7 px-5 flex flex-col justify-between"
                   style={{
                     background:
@@ -124,9 +123,9 @@ const BasketPage = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-                {/* ***THIRD CARD*** */}
-                <div
+                </div> */}
+              {/* ***THIRD CARD*** */}
+              {/* <div
                   className=" bg-notifyBg rounded-[25px] w-[382px] h-[260px] py-7 px-5 flex flex-col justify-between"
                   style={{
                     background:
@@ -221,143 +220,141 @@ const BasketPage = () => {
                       </button>
                     </div>
                   </div>
-                </div>
-
-                <div className="mb-[40px]">
-                  <div className="px-7 py-5 mb-10">
-                    <span className="font-abcBold text-white text-xl leading-none">
-                      My Baskets
+                </div> */}
+            </div>
+            <div className="mb-[40px]">
+              <div className="px-7 py-5 mb-10">
+                <span className="font-abcBold text-white text-xl leading-none">
+                  My Baskets
+                </span>
+              </div>
+              <div className="gap-[10px] flex flex-wrap">
+                <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
+                  <div className="flex justify-between items-center gap-1">
+                    <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
+                      <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
                     </span>
+                    <div className="flex pl-4">
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                    </div>
                   </div>
-                  <div className="gap-[10px] flex flex-wrap">
-                    <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
-                      <div className="flex justify-between items-center gap-1">
-                        <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
-                          <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
-                        </span>
-                        <div className="flex pl-4">
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                        </div>
+                  <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
+                    <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div>
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
                       </div>
-                      <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
-                        <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
-                      </div>
-                      <div className="flex justify-between">
-                        <div>
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col">
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex justify-between">
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                        </div>
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                        </div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
                       </div>
                     </div>
-                    <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
-                      <div className="flex justify-between items-center gap-1">
-                        <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
-                          <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
-                        </span>
-                        <div className="flex pl-4">
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                        </div>
+                    <div className="flex flex-col">
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
                       </div>
-                      <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
-                        <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
-                      </div>
-                      <div className="flex justify-between">
-                        <div>
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col">
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex justify-between">
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                        </div>
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                        </div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
                       </div>
                     </div>
-                    <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
-                      <div className="flex justify-between items-center gap-1">
-                        <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
-                          <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
-                        </span>
-                        <div className="flex pl-4">
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
-                        </div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                    </div>
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
+                  <div className="flex justify-between items-center gap-1">
+                    <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
+                      <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
+                    </span>
+                    <div className="flex pl-4">
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                    </div>
+                  </div>
+                  <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
+                    <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div>
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
                       </div>
-                      <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
-                        <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
                       </div>
-                      <div className="flex justify-between">
-                        <div>
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
-                        <div className="flex flex-col">
-                          <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
-                            <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
-                          </div>
-                          <div className="font-proximaRegular text-white text-xl leading-none">
-                            <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
-                          </div>
-                        </div>
+                    </div>
+                    <div className="flex flex-col">
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
                       </div>
-                      <div className="flex justify-between">
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
-                        </div>
-                        <div className="flex gap-[5px]">
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                          <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
-                        </div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
                       </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                    </div>
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
+                    </div>
+                  </div>
+                </div>
+                <div className="bg-[#0d0d12] rounded-[25px] w-[382px] h-[260px] px-7 py-5 flex flex-col justify-between">
+                  <div className="flex justify-between items-center gap-1">
+                    <span className="text-2xl text-gray-101 font-proximaSemiBold tracking-[-0.56px]">
+                      <div className="animate-pulse rounded-md p-2 h-8 w-40 bg-[#414853]"></div>
+                    </span>
+                    <div className="flex pl-4">
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-full h-10 w-10 bg-[#414853]"></div>
+                    </div>
+                  </div>
+                  <div className="flex h-[5px] rounded-[4px] mb-[18px] text-gray-101">
+                    <div className="animate-pulse rounded-md w-full h-[6px] bg-[#414853]"></div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div>
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-24 h-[14px] bg-[#414853]"></div>
+                      </div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-32 h-5 bg-[#414853]"></div>
+                      </div>
+                    </div>
+                    <div className="flex flex-col">
+                      <div className="text-gray-103 font-proximaSemiBold text-sm leading-none pb-[5px]">
+                        <div className="animate-pulse rounded-md w-20 h-[14px] bg-[#414853] float-right"></div>
+                      </div>
+                      <div className="font-proximaRegular text-white text-xl leading-none">
+                        <div className="animate-pulse rounded-md w-24 h-5 bg-[#414853]"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex justify-between">
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-10 h-10 bg-[#414853]"></div>
+                    </div>
+                    <div className="flex gap-[5px]">
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
+                      <div className="animate-pulse rounded-md w-[100px] h-10 bg-[#414853]"></div>
                     </div>
                   </div>
                 </div>
@@ -366,7 +363,7 @@ const BasketPage = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 export default BasketPage;

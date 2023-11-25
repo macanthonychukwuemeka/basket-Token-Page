@@ -1,5 +1,6 @@
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import BasketPage from "./BasketPage";
+import SwapPage from "./SwapPage";
 
 const Homelayout = () => {
   return (
@@ -11,6 +12,7 @@ const Homelayout = () => {
         ></img>
       </div>
       <Navbar />
+      <SwapPage />
       <BasketPage />
     </div>
   );
