@@ -29,7 +29,7 @@ const CartItems = () => {
                       <div className="bg-gray-109 relative flex justify-center items-center rounded-full min-h-40 min-w-40 max-h-40 max-w-40">
                         <img
                           src={imageUrl}
-                          alt={`Image ${index}`}
+                          alt={"Token"}
                           width="40"
                           height="40"
                           className="rounded-full  block max-w-40 max-h-40"
