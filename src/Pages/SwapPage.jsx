@@ -361,14 +361,15 @@ const SwapPage = () => {
                     </div>
                   </div>
                 </div>
-                <button
+                {/* <button
                   className="inline-flex items-center justify-center font-medium ring-offset-background focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2
                   //  disabled:pointer-events-none disabled:opacity-50 px-4 py-2 w-full shadow h-16 sm:h-60 rounded-3xl bg-blue-101 hover:bg-blue-600 transition-colors duration-200 ease-in-out text-white font-proximaMedium sm:font-proximaSemiBold text-xl"
+                > */}
+                <button
+                  className="inline-flex items-center justify-center font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 px-4 py-2 w-full shadow h-16 sm:h-[60px] rounded-3xl bg-blue-101 hover:bg-blue-600 transition-colors duration-200 ease-in-out text-white font-proximaMedium sm:font-proximaSemiBold text-xl"
+                  disabled
                 >
                   Connect Wallet
-                </button>
-                <button className="focus:ring-2 focus:ring-offset-2 focus:outline-none">
-                  Click me
                 </button>
               </div>
             </div>
