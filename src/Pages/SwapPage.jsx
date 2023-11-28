@@ -271,50 +271,8 @@ const SwapPage = () => {
                             data-state="closed"
                             className="cursor-help inherit relative w-20 h-20"
                           >
-                            <span
-                              className="myStyledComponent"
-                              // style={{
-                              //   position: "absolute",
-                              //   height: "20px",
-                              //   width: "20px",
-                              //   border: "thick solid rgb(0, 125, 255)",
-                              //   borderRadius: "50%",
-                              //   opacity: 1,
-                              //   top: "0px",
-                              //   left: "0px",
-                              //   animation:
-                              //     "custom-animation-1 -1s infinite cubic-bezier(0.165, 0.84, 0.44, 1)",
-                              // }}
-                            ></span>
-                            <span
-                              className="myStyledComponent"
-                              // style={{
-                              //   position: "absolute",
-                              //   height: "20px",
-                              //   width: "20px",
-                              //   border: "thick solid rgb(0, 125, 255)",
-                              //   borderRadius: "50%",
-                              //   opacity: 1,
-                              //   top: "0px",
-                              //   left: "0px",
-                              //   animation:
-                              //     "custom-animation-2 0s infinite cubic-bezier(0.3, 0.61, 0.355, 1)",
-                              // }}
-                            ></span>
-                            {/* <span
-                              style={{
-                                position: "absolute",
-                                height: "20px",
-                                width: "20px",
-                                border: "thick solid rgb(0, 125, 255)",
-                                borderRadius: "50%",
-                                opacity: 1,
-                                top: "0px",
-                                left: "0px",
-                                animation:
-                                  "2.66667s 0s infinite cubic-bezier(0.165, 0.84, 0.44, 1), custom-animation-2 infinite cubic-bezier(0.3, 0.61, 0.355, 1)",
-                              }}
-                            ></span> */}
+                            <span className="myStyledComponent"></span>
+                            <span className="myStyledComponent"> </span>
                           </button>
                           <div className="flex items-center gap-1 cursor-pointer  leading-none">
                             <span className="sm:text-mainText sm:font-proximaSemiBold sm:text-sm">
