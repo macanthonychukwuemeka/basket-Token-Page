@@ -90,7 +90,7 @@
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
   position: absolute;
-  /* width: calc(50%); */
+  width: calc(100%);
   --tw-bg-opacity: 1;
   background-color: rgb(65 72 83 / var(--tw-bg-opacity));
   transition-duration: 0.2s;
@@ -117,6 +117,29 @@
 .bg-gray-111 {
   --tw-bg-opacity: 1;
   background-color: rgb(65 72 83 / var(--tw-bg-opacity));
+}
+
+.border-gray-109 {
+  --tw-border-opacity: 1;
+  border-color: rgb(14 15 18 / var(--tw-border-opacity));
+}
+.border-gray-108 {
+  --tw-border-opacity: 1;
+  border-color: rgb(30 31 38 / var(--tw-border-opacity));
+}
+
+.shadow,
+.shadow-inner {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px -1px rgba(0, 0, 0, 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+}
+.rounded-full {
+  border-radius: 9999px;
 }
 .text-lg {
   font-size: 1.125rem;
