@@ -25,7 +25,7 @@ const Navbar = () => {
               <span className="font-abcLight">Hunter</span>
             </a>
           </div>
-          <div className="md:justify-start sm:hidden md:ml-[30px] flex-1 flex justify-center">
+          <div className="md:justify-start sm:hidden md:ml-[30px] flex-1 flex lg:justify-center">
             <div className="relative">
               <div className="absolute inset-y-0 left-0 flex items-center pl-[20px] pointer-events-none">
                 <img
