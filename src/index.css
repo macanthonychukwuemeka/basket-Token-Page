@@ -35,45 +35,6 @@
   --gold-foreground: #191919;
   --ring: #a7a7a7;
   --radius: 0.5rem;
-  --toastify-color-light: #fff;
-  --toastify-color-dark: #121212;
-  --toastify-color-info: #3498db;
-  --toastify-color-success: #07bc0c;
-  --toastify-color-warning: #f1c40f;
-  --toastify-color-error: #e74c3c;
-  --toastify-color-transparent: hsla(0, 0%, 100%, 0.7);
-  --toastify-icon-color-info: var(--toastify-color-info);
-  --toastify-icon-color-success: var(--toastify-color-success);
-  --toastify-icon-color-warning: var(--toastify-color-warning);
-  --toastify-icon-color-error: var(--toastify-color-error);
-  --toastify-toast-width: 320px;
-  --toastify-toast-background: #fff;
-  --toastify-toast-min-height: 64px;
-  --toastify-toast-max-height: 800px;
-  --toastify-font-family: sans-serif;
-  --toastify-z-index: 9999;
-  --toastify-text-color-light: #757575;
-  --toastify-text-color-dark: #fff;
-  --toastify-text-color-info: #fff;
-  --toastify-text-color-success: #fff;
-  --toastify-text-color-warning: #fff;
-  --toastify-text-color-error: #fff;
-  --toastify-spinner-color: #616161;
-  --toastify-spinner-color-empty-area: #e0e0e0;
-  --toastify-color-progress-light: linear-gradient(
-    90deg,
-    #4cd964,
-    #5ac8fa,
-    #007aff,
-    #34aadc,
-    #5856d6,
-    #ff2d55
-  );
-  --toastify-color-progress-dark: #bb86fc;
-  --toastify-color-progress-info: var(--toastify-color-info);
-  --toastify-color-progress-success: var(--toastify-color-success);
-  --toastify-color-progress-warning: var(--toastify-color-warning);
-  --toastify-color-progress-error: var(--toastify-color-error);
   color: var(--primary-foreground);
   font-family: ProximaNovaSemiBold;
   font-size: 0.75rem;
@@ -129,7 +90,7 @@
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
   position: absolute;
-  width: calc(50%);
+  /* width: calc(50%); */
   --tw-bg-opacity: 1;
   background-color: rgb(65 72 83 / var(--tw-bg-opacity));
   transition-duration: 0.2s;
@@ -204,7 +165,7 @@
   border-radius: 50%;
   opacity: 1;
   left: 0;
-  bottom: 50;
-  animation: 2.66667s infinite cubic-bezier(0.165, 0.84, 0.44, 1),
+  top: 50;
+  animation: custom-animation-1 0s infinite cubic-bezier(0.165, 0.84, 0.44, 1),
     custom-animation-2 2s infinite cubic-bezier(0.3, 0.61, 0.355, 1);
 }

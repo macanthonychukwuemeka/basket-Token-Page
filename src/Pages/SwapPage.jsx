@@ -60,12 +60,12 @@ const SwapPage = () => {
                             ></path>
                           </svg>
                         </div>
-                        <div className="flex rounded-xl relative bg-gray-114/50 font-proximaSemiBold text-xs w-[84px] h-[40px] h-40">
-                          <div className="w-[calc(50%)] h-10 absolute duration-200 bg-gray-111 translate-x-0 h-40 rounded-md"></div>
-                          <button className="flex-1 h-10 z-[1] relative delay-200 duration-75 text-gray-101 h-40">
+                        <div className="flex rounded-xl relative bg-gray-114/50 font-proximaSemiBold text-xs w-[84px] h-[40px]  ">
+                          <div className="w-[calc(50%)] h-10 absolute duration-200 bg-gray-111 translate-x-0   rounded-md"></div>
+                          <button className="flex-1 h-10 z-[1] relative delay-200 duration-75 text-gray-101  ">
                             OFF
                           </button>
-                          <button className="flex-1 h-10 z-[1] relative delay-200 duration-75 text-gray-103 h-40">
+                          <button className="flex-1 h-10 z-[1] relative delay-200 duration-75 text-gray-103  ">
                             PRO
                           </button>
                         </div>
