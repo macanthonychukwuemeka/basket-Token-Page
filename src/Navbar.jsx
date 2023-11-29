@@ -1,7 +1,7 @@
 const Navbar = () => {
   return (
     <>
-      <div
+      {/* <div
         className="px-4 md:px-6 py-2 backdrop-blur-[13.5px] bg-gradient-to-r from-gray-900 via-gray-800 to-gray-600"
         // style={{
         //   background: "linear-gradient(to right, #16161D9A, #3B3D4980)",

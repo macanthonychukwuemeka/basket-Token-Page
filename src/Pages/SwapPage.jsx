@@ -5,7 +5,7 @@ const SwapPage = () => {
         <div className="shrink">
           <div>
             <div className=" relative">
-              <div className="bg-gray-109 flex flex-col gap-2.5 p-2.5 pt-0 rounded-[26px]   md:w-[430px] sm:w-[345px]  sm:p-2.5 ">
+              <div className="bg-gray-109 flex flex-col gap-2.5 p-2.5 pt-0 rounded-[26px]   sm:w-[430px] md:w-[490px]  sm:p-2.5 ">
                 <div className="">
                   <div className="flex justify-between gap-2 items-center py-4 px-8 sm:pt-[7px] sm:pb-[15px] sm:px-5 lg:pr-0 md:px-4 sm:pr-0">
                     <div className="flex gap-4">
