@@ -176,7 +176,7 @@ const Navbar = () => {
             id="mobile-menu-2"
           ></div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
